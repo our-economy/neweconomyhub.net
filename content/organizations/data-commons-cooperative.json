@@ -1,0 +1,26 @@
+{
+  "slug": "data-commons-cooperative",
+  "name": "Data Commons Cooperative",
+  "description": "A cooperative, owned by the organizations that use and contribute its data, that provides shared data infrastructure for the cooperative and solidarity economy. Its bylaws were adopted in 2012. It runs find.coop, a collaborative directory that merges many groups' databases into one searchable map, including the Coop Directory Service for natural food co-ops, ChiCommons' Chicago map, Cooperation Works' list of co-op service providers, the Cooperative Fund of New England's borrowers, Foundation for Intentional Community listings, and an older, larger find.coop dataset that the site itself calls out of date. Listings can be downloaded as CSV, JSON, KML, and other formats. It also helps members run their own maps, such as solidarityeconomy.us. Members include the U.S. Federation of Worker Cooperatives (a founding member), the Canadian Worker Co-op Federation, Cooperation Works!, the Cooperative Development Institute, GEO, the U.S. Solidarity Economy Network, and several regional co-op alliances. Activity has slowed: the newest post on its website is from November 2021, when it described itself as \"at a crossroads\", needing to rebuild find.coop and find a sustainable business model.",
+  "url": "https://datacommons.coop/",
+  "tags": ["solidarity-economy", "research", "membership-network", "directory"],
+  "activityLevel": 1,
+  "sourceType": "AI_GENERATED",
+  "geoScope": "US",
+  "research": {
+    "checkedAt": "2026-11-26",
+    "events": "NONE_FOUND",
+    "forums": "NONE_FOUND",
+    "sourcesChecked": [
+      "https://datacommons.coop/",
+      "https://datacommons.coop/about/",
+      "https://datacommons.coop/members/",
+      "https://datacommons.coop/wp-json/wp/v2/posts?per_page=8",
+      "https://datacommons.coop/data-commons-at-a-crossroads-2021/",
+      "https://find.coop/",
+      "https://find.coop/about",
+      "https://find.coop/recent"
+    ],
+    "notes": "The only event found is a 2021 Annual General Meeting, announced in the newest blog post (November 2021). No later AGM or other event is announced. Contact channels are an email address, a one-way updates sign-up, and a Mastodon account (@dcc@social.coop), none of them a discussion space. geoScope is US although the directory also covers Canada: most of its data sources and members are in the US. activityLevel 1 reflects a website with no posts in five years; find.coop is still online and accepts new listings."
+  }
+}

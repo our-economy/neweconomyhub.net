@@ -1,0 +1,20 @@
+{
+  "slug": "cooperation-new-orleans-coop-kikis",
+  "title": "Coop Kikis",
+  "description": "Cooperation New Orleans's informal in-person hangout, listed on its Get Involved page as one of the ways to talk with the organization: Wednesdays at lunchtime at Pagoda Cafe, a worker-owned cafe in the 7th Ward (1430 N. Dorgenois St.) that is itself part of the group's co-op ecosystem. No registration or cost is mentioned. The page asks people to check the group's Instagram (@coopneworleans) for updates or changes before going.",
+  "url": "https://www.coopnola.org/get-involved",
+  "startAt": "2026-11-25",
+  "time": { "start": "12:00", "end": "13:30", "timeZone": "America/Chicago" },
+  "recurrence": {
+    "schedule": "Wednesdays, 12:00-1:30pm CT, at Pagoda Cafe. Check @coopneworleans on Instagram for changes.",
+    "rule": { "frequency": "WEEKLY", "weekday": "WE" },
+    "confirmedAt": "2026-11-26"
+  },
+  "isVirtual": false,
+  "city": "New Orleans, LA",
+  "barrierToEntry": "LOW",
+  "tags": ["solidarity-economy", "community", "networking"],
+  "organizationSlugs": ["cooperation-new-orleans"],
+  "sourceType": "AI_GENERATED",
+  "geoScope": "US"
+}
