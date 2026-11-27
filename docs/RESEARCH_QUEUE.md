@@ -171,9 +171,28 @@ where its office is.
 Tracked separately from the national list; see the New Orleans item in
 [IDEAS.md](IDEAS.md) for the open scope question about food co-ops.
 
-| Organization | URL | Why it's on the list | Already spotted |
-| --- | --- | --- | --- |
-| Cooperation New Orleans | https://coopnola.org/ | Solidarity economy org centering Black, Brown, and Indigenous New Orleanians; runs a community loan fund and the Black Liberation Coop Academy | Hosts events and a newsletter. **It also publishes its own map and database of local co-ops and community groups** — start the rest of the New Orleans pass there rather than from a search engine |
+Cooperation New Orleans was researched and added 2026-11-26 (record
+`cooperation-new-orleans`, with its weekly Coop Kikis hangout). The
+ecosystem directory on its homepage (three pages, about 18 entries) is the
+lead list for the rest of this tranche. These are the co-ops and allied
+groups in it, none researched yet:
+
+- Worker co-ops and collectives: Pagoda Cafe (https://www.pagodacafe.net/),
+  BanchaLenguas (language justice), Civic Studio (https://www.civicstudio.coop/),
+  Birthmark Doula Collective (https://www.birthmarkdoulas.com/),
+  Cooperative Codebase (https://cooperativecodebase.com/), Mycelium Tech
+  Co-op (https://mycelium.coop), Ujima Childcare Co-op, VEGGI Farmers
+  Cooperative (https://www.veggifarmcoop.com/)
+- Other ecosystem groups: Builders of the Highway, Lavender Lounge, Red
+  Cypress Consulting, Spring Up, TMH Solutions Hub, Project Hustle, Speakeasy
+  Farm, Melegance
+- New Orleans Food Co-op (https://www.nolafood.coop/) is linked from the
+  directory. That bears on the food co-op scope question in IDEAS.md.
+- **SolidarityEcono.my** (https://solidarityecono.my/) is an online
+  marketplace for co-op goods and services being built by Cooperative
+  Codebase. When checked 2026-11-26 it was pre-launch: a sign-up list and
+  intake forms only. Re-check once it launches. It would sit alongside
+  `workerowned-info` as a way to buy from co-ops.
 
 Everything else local — the community loan funds, and the food co-ops if
 they're ruled in — should come out of that directory, plus a check for New

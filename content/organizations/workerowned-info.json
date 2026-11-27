@@ -1,0 +1,21 @@
+{
+  "slug": "workerowned-info",
+  "name": "workerowned.info",
+  "description": "A free, searchable marketplace of products from US worker- and employee-owned businesses, built by one independent developer and launched in 2026. It indexes online stores (Shopify, WooCommerce, BigCommerce) and links each result to the company's own product page; it sells nothing, takes no commission, runs no ads, and collects no user data. When checked it claimed 200,000+ products from 170+ companies across categories including coffee and tea, food, apparel, books, music, games, personal care, home goods and services, and tech. The 22,000 products the creator cited in GEO in July 2026 suggests fast growth. It also has a city search for worker-owned coffee shops, bars, restaurants, and grocery stores, and a holiday gift guide. Businesses are found through the U.S. Federation of Worker Cooperatives, the Democracy at Work Institute, NYC NOWC, and regional co-op networks, and anyone can submit one. It is the most direct tool found so far for moving everyday spending toward worker-owned businesses.",
+  "url": "https://www.workerowned.info/",
+  "tags": ["worker-cooperatives", "marketplace", "directory"],
+  "sourceType": "AI_GENERATED",
+  "geoScope": "US",
+  "research": {
+    "checkedAt": "2026-11-26",
+    "events": "NONE_FOUND",
+    "forums": "NONE_FOUND",
+    "sourcesChecked": [
+      "https://www.workerowned.info/",
+      "https://www.workerowned.info/faq",
+      "https://geonewsletter.org/articles/new-directory-worker-co-ops-products",
+      "https://newsletter.geo.coop/archive/newsletter-07-21-26"
+    ],
+    "notes": "A one-person web tool with no events, community space, or mailing list. The site only offers a submission form and a contact email. The creator wrote the GEO article under the site's name, so no person is named in this record. The product and company counts are the site's own claims, read from its homepage."
+  }
+}
