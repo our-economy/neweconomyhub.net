@@ -83,12 +83,14 @@ not a finished one.
   `next build --webpack` is the escape hatch if Turbopack ever bites.
 - **`npm audit` is not clean, and that's new advisories, not a pin.** The
   old `postcss` finding was cleared by the Next 16.3.4 upgrade, and audit
-  briefly read 0. As of 2026-10-24 it reports 5 (1 critical, 4 high): new
-  advisories against Next 16.0.0-16.4.0 itself (the critical one is RCE in
-  `next/og`'s `ImageResponse`, which this static site doesn't use) and
-  against transitive tooling (`sharp`, `zod`, `brace-expansion`,
-  `source-map-js`). Next is *not* pinned backwards — don't go looking for
-  that. The fix is an upgrade, tracked in `docs/TODO.md`.
+  briefly read 0. As of 2026-11-27 it reports 12 (1 critical, 4 high, 7
+  moderate), and the count has been climbing: new advisories against Next
+  16.0.0-16.4.4 itself (the critical one is RCE in `next/og`'s
+  `ImageResponse`, which this static site doesn't use), against
+  transitive build tooling (`sharp`, `zod`, `brace-expansion`,
+  `source-map-js`), and against the `typescript-eslint` lint stack. Next
+  is *not* pinned backwards — don't go looking for that. The fix is an
+  upgrade, tracked in `docs/TODO.md`.
 - **A dev server can 404 every `/organizations/[slug]` page from a stale
   cache.** Hit 2026-10-04, after switching branches between two dev-server
   runs: `next dev` returned 404 for every org detail page while `/events`

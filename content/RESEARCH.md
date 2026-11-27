@@ -131,6 +131,10 @@ hour rediscovering them. Check whether each still holds; tools change.
   launch it with `executablePath: '/opt/pw-browsers/chromium'` (don't run
   `playwright install`), wait a few seconds, then read
   `document.body.innerText` or the page's links.
+- **Social media is mostly off-limits.** Instagram answered automated
+  fetches with HTTP 429 (the Cooperation New Orleans pass, 2026-11-26), so
+  an org that announces changes only there can't be fully checked. Say so
+  in the research block rather than guessing.
 - **Look for a feed before scraping.** Doughnut Economics Action Lab
   publishes its events as RSS at `/events.xml`, which beats parsing the
   rendered page.

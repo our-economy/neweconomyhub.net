@@ -14,11 +14,13 @@ sequence — see [DECISIONS.md](DECISIONS.md#no-roadmap).
 
 ## Decided, not done
 
-- **Upgrade Next past the 2026-10 advisories.** `npm audit` reports 5
-  findings (1 critical, 4 high) against Next 16.3.4 and transitive build
-  tooling; npm says a non-breaking fix exists, and Next 16.4.1+
-  clears the critical one. Run the `npm view next dist-tags` check from
-  CLAUDE.md first (on 2026-10-24 `latest` was 16.4.3), then build and
+- **Upgrade Next and the lint stack past the 2026-10/11 advisories.**
+  `npm audit` reports 12 findings as of 2026-11-27 (1 critical, 4 high, 7
+  moderate) against Next 16.3.4, transitive build tooling, and
+  `typescript-eslint`; it was 5 on 2026-10-24, so the list keeps growing.
+  The critical Next advisory covers 16.0.0-16.4.4, so 16.4.5+ clears it.
+  Run the `npm view next dist-tags` check from CLAUDE.md first (on
+  2026-11-27 `latest` was 16.4.6), then build and
   check the site in a browser — including the events calendar views and
   that `/events.ics` and `/calendar/*.ics` still prerender. Exposure is
   low (static export, no `next/og`), and CI doesn't run `npm audit`, so
@@ -51,21 +53,23 @@ sequence — see [DECISIONS.md](DECISIONS.md#no-roadmap).
   (Eventbrite) and Co-ops 101 page; FIC's four CommUniversity pages; the
   ICA webinar; NAHC's conference; Platform Co-op's Solidarity AI
   conference; Project Equity's two webinar pages; Transition's Gathering
-  journal post and New Moon page; and DEAL's `gdd2026` festival page. Each
-  event file's `url` is the page to save. Three have already happened
-  (FIC's Oak Park tour, the Ujima Pumpkin Party, Project Equity's
-  Stanislaus webinar), so check a snapshot actually shows the event.
+  journal post and New Moon page; and DEAL's `gdd2026` festival page.
+  Cooperation New Orleans's Coop Kikis event (PR #36) has none either.
+  Each event file's `url` is the page to save. By 2026-11-27 most of the
+  one-off events have happened, so a fresh snapshot may no longer show
+  them; check the snapshot's content, and use an earlier one from the
+  availability API's `timestamp` if one exists.
 - **Re-check the backfill's loose ends when their dates come.** Ujima Cafe's
   2027 season (spring — the 2026 one ended 2026-10-22 and no dates are out);
   Cooperation Jackson's calendar, silent since August 2025 (if Build and
   Fight resumes, it's a ready-made second-Tuesday `recurrence`); and A
   Bookkeeping Cooperative's next Building Shared Futures and Patronage
   rounds. Each is written up in its organization's `research.notes`.
-- **Tidy the Union Co-ops call's schedule after 2026-11-18.** Its
-  `recurrence.schedule` (`usfwc-union-co-ops-council-call.json`) says
-  "November 2026's call is on Wednesday, November 18" — true now, stale
-  once that date passes, and nothing will warn. Re-check USFWC's calendar
-  then: if the call is back to the last Wednesday, drop the exception and
+- **Tidy the Union Co-ops call's schedule — due now (2026-11-18 has
+  passed).** Its `recurrence.schedule`
+  (`usfwc-union-co-ops-council-call.json`) says "November 2026's call is
+  on Wednesday, November 18", which is stale now, and nothing will warn.
+  Re-check USFWC's calendar: if the call is back to the last Wednesday, drop the exception and
   consider adding a `rule` (`MONTHLY`, `WE`, `-1`), which would also give
   it calendar entries.
 - **Settle two possible forums that need an account to check.** FIC's
