@@ -81,11 +81,16 @@ not a finished one.
   browser rather than trusting a green build — a build that emits no
   Tailwind utilities passes just as happily as one that does.
   `next build --webpack` is the escape hatch if Turbopack ever bites.
-- **The `postcss` npm audit finding is resolved.** It was a build-time-only
-  exposure bundled inside Next's own tooling, unfixable below Next 16 and
-  knowingly accepted for a while. Upgrading to Next 16.3.4 cleared it;
-  `npm audit` reports 0 vulnerabilities. If it comes back, suspect
-  something pinned Next backwards rather than a new advisory.
+- **`npm audit` is not clean, and that's new advisories, not a pin.** The
+  old `postcss` finding was cleared by the Next 16.3.4 upgrade, and audit
+  briefly read 0. As of 2026-11-27 it reports 12 (1 critical, 4 high, 7
+  moderate), and the count has been climbing: new advisories against Next
+  16.0.0-16.4.4 itself (the critical one is RCE in `next/og`'s
+  `ImageResponse`, which this static site doesn't use), against
+  transitive build tooling (`sharp`, `zod`, `brace-expansion`,
+  `source-map-js`), and against the `typescript-eslint` lint stack. Next
+  is *not* pinned backwards — don't go looking for that. The fix is an
+  upgrade, tracked in `docs/TODO.md`.
 - **A dev server can 404 every `/organizations/[slug]` page from a stale
   cache.** Hit 2026-10-04, after switching branches between two dev-server
   runs: `next dev` returned 404 for every org detail page while `/events`
