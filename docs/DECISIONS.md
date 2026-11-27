@@ -4,6 +4,21 @@ Short log of architectural calls and the reasoning behind them, so later
 readers (human or agent) don't relitigate settled questions without the
 context that settled them. Newest first.
 
+## 2026-11-27: Licenses — AGPL-3.0 for code, CC BY-SA 4.0 for content
+
+**Decision**: The code is licensed AGPL-3.0 (`LICENSE`). The content —
+every record under `content/`, the written text on the site, and `docs/` —
+is licensed CC BY-SA 4.0 (`LICENSE-CONTENT`). Until now the repo had no
+license at all, which meant "all rights reserved" despite being public.
+
+**Why**: The hub is becoming one of Our Economy's projects (and is expected
+to move into the `our-economy` GitHub org), so it uses the same licenses as
+oureconomy.net. Copyleft fits a directory meant to be a shared,
+organization-agnostic resource: anyone can reuse or fork the listings, as
+long as what they build on them stays open too. Without a license,
+contributions couldn't safely be accepted and the site couldn't honestly be
+called open source.
+
 ## 2026-10-21: "Add to calendar" is static files, plus an optional `Event.time`
 
 **Decision**: Every upcoming event card gets a Google Calendar link and an
