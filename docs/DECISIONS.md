@@ -4,6 +4,24 @@ Short log of architectural calls and the reasoning behind them, so later
 readers (human or agent) don't relitigate settled questions without the
 context that settled them. Newest first.
 
+## 2026-11-27: The repo moves into the Our Economy GitHub org, as `neweconomyhub.net`
+
+**Decision**: The repo was transferred from `pinodeca/new-economy-hub` to
+`our-economy/neweconomyhub.net` (renamed in the same step). The site,
+domain and Azure resources are unchanged.
+
+**Why**: New Economy Hub is now presented as one of Our Economy's projects
+(oureconomy.net says so on `/ideas/where-we-fit/`). Keeping it in the org
+means work on the hub shows up in the org's public contribution history
+(which, for now, is how Our Economy records contributions), lets other
+maintainers be added through org teams, and puts its issues next to the
+movement's other projects. The name follows the org's convention of naming
+a website repo after its domain (`our-economy/oureconomy.net`).
+
+The hub stays open to every group, whatever its approach: being an Our
+Economy project doesn't mean listing or favoring Our Economy. Operational
+details of the move are in `docs/INFRASTRUCTURE.md` (GitHub section).
+
 ## 2026-11-27: Licenses — AGPL-3.0 for code, CC BY-SA 4.0 for content
 
 **Decision**: The code is licensed AGPL-3.0 (`LICENSE`). The content —

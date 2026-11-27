@@ -95,7 +95,7 @@ sequence — see [DECISIONS.md](DECISIONS.md#no-roadmap).
   because the work is young, not because there's nothing out there. Wants
   a short note somewhere durable (homepage and/or footer): when the site
   started, that construction is very much in progress, and a link to
-  https://github.com/pinodeca/new-economy-hub for anyone who wants to
+  https://github.com/our-economy/neweconomyhub.net for anyone who wants to
   contribute, request a fix, or ask for an org we haven't reached yet.
   Overlaps with the participation item above — the same footer probably
   carries both.

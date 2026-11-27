@@ -6,6 +6,27 @@ to be reverse-engineered months from now. Update this file whenever any of
 it changes. See `docs/DECISIONS.md` for the reasoning behind being on
 Azure/static export at all.
 
+## GitHub
+
+- **Repository**: `our-economy/neweconomyhub.net`, in the Our Economy
+  GitHub org (github.com/our-economy). It was `pinodeca/new-economy-hub`
+  until 2026-11-27, when it was transferred into the org and renamed in the
+  same step (see `docs/DECISIONS.md`). GitHub redirects the old web URLs
+  and git remotes, but update local clones anyway
+  (`git remote set-url origin https://github.com/our-economy/neweconomyhub.net`).
+  Never create a repo at the old name: that permanently breaks the redirect.
+- The transfer kept issues, PRs, history and the Actions secret, so deploys
+  carried on unchanged; a manual deploy run right after the move succeeded.
+  The Azure resource names (`rg-new-economy-hub`, `new-economy-hub`) were
+  not renamed and don't need to be: the deploy is linked by the token, not
+  by the repo name. The Azure portal may still show the old repo URL on the
+  Static Web App; that's cosmetic.
+- Now that the repo lives in an org, the **org's** settings apply to it:
+  if deploys ever fail before running any step, check the org's
+  Settings → Actions → General → Policies (it must allow
+  `Azure/static-web-apps-deploy`). The "scheduled workflow disabled" email
+  (see below) now goes to the org's owners.
+
 ## Azure
 
 - **Subscription**: "New Economy Hub" (`deff0a20-5ca3-4d6d-a2bb-f9d5ac2dea8a`),
@@ -51,8 +72,8 @@ Azure/static export at all.
     `src/lib/event-dates.ts`). Without a scheduled rebuild, an event that
     has passed would keep showing as upcoming until somebody happened to
     push a commit. **Gotcha**: GitHub disables scheduled workflows in
-    repos with no activity for 60 days, and emails the repo owner when it
-    does — if the events list starts looking stale, check that the
+    repos with no activity for 60 days, and emails the repo owner (now the org's
+    owners) when it does — if the events list starts looking stale, check that the
     schedule is still enabled before debugging anything in the code. The
     footer note on `/events` renders the build date, so a stalled rebuild
     is visible on the site itself rather than silent.
