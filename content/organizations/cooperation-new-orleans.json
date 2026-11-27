@@ -1,0 +1,30 @@
+{
+  "slug": "cooperation-new-orleans",
+  "name": "Cooperation New Orleans",
+  "description": "A movement hub for the solidarity economy in New Orleans, centering Black, Brown, and Indigenous New Orleanians. It began in 2019 as a group bringing together local projects, mutual aid efforts, businesses, and co-ops, and grew during the pandemic's mutual aid work; it is run by a steering committee of part-time organizers and contractors. Programs: free technical assistance and incubation for solidarity economy projects and worker co-ops led by Black and Indigenous New Orleanians (fee-for-service for others); a community loan fund, run with Seed Commons, that makes non-extractive loans to Black worker-owned co-ops, repaid only once the business can afford it; the Black Liberation Co-op Academy, a free 10-session program with a $600 completion stipend (applications currently closed); Cooperation Gumbo, a storytelling and oral-history project on Black and Indigenous cooperation in the city; and a resource library. Its homepage carries a filterable directory of about 18 co-ops and allied groups in its ecosystem, including Pagoda Cafe, Birthmark Doula Collective, BanchaLenguas, Civic Studio, Mycelium Tech Co-op, Ujima Childcare Co-op, and VEGGI Farmers Cooperative, and groups can ask to be added.",
+  "url": "https://www.coopnola.org/",
+  "tags": ["solidarity-economy", "worker-cooperatives", "cooperative-development", "community-investment", "bipoc-led", "directory"],
+  "sourceType": "AI_GENERATED",
+  "geoScope": "US",
+  "research": {
+    "checkedAt": "2026-11-26",
+    "events": "ADDED",
+    "forums": "NONE_FOUND",
+    "sourcesChecked": [
+      "https://www.coopnola.org/",
+      "https://www.coopnola.org/?comp-mk3dposl_page=2",
+      "https://www.coopnola.org/?comp-mk3dposl_page=3",
+      "https://www.coopnola.org/get-involved",
+      "https://www.coopnola.org/services-9",
+      "https://www.coopnola.org/our-story",
+      "https://www.coopnola.org/copy-of-join-the-movement",
+      "https://www.coopnola.org/community-loan-fund",
+      "https://www.coopnola.org/black-liberation-coop-academy-1"
+    ],
+    "notRepresentable": [
+      "The Get Involved page mentions Loan Steward open office hours on Zoom, listed on the org's calendar. The Events page's calendar widget wasn't connected to a calendar when checked (it showed Wix's set-up placeholder), so no dates were visible.",
+      "The Black Liberation Co-op Academy is a 10-session cohort program. Applications are closed and no next cohort dates are published."
+    ],
+    "notes": "Added the weekly Coop Kikis hangout, the only dated activity the site describes. The Get Involved page says to check Instagram for changes, and Instagram blocked automated fetching (HTTP 429), so the cadence hasn't been checked beyond the org's own site. Forums: the only sign-ups are a Mailchimp newsletter (one-way) and Instagram/Facebook accounts; no Slack, Discord, or discussion list was found. The ecosystem directory on the homepage is a lead list for the rest of the New Orleans tranche in docs/RESEARCH_QUEUE.md."
+  }
+}

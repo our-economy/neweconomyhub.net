@@ -1,0 +1,22 @@
+{
+  "slug": "apply-coop",
+  "name": "apply.coop",
+  "description": "A free, bilingual (English/Spanish) directory of values-driven workplaces for job seekers, built by Limeleaf Worker Collective, a worker co-op. It began in 2025 as a job board for co-ops only and has since become a directory of employers, each with a profile linking to its own site. When checked it listed 70 cooperatives (worker co-ops such as Equal Exchange, Igalia, Gimme! Coffee, and GEO, plus credit unions and electric co-ops), along with 31 nonprofits and 6 public benefit corporations, so it is not limited to co-ops. Anyone can suggest a workplace to add. It says it doesn't track users or keep personal data, and it is free for job seekers.",
+  "url": "https://apply.coop/",
+  "tags": ["worker-cooperatives", "jobs", "directory"],
+  "sourceType": "AI_GENERATED",
+  "geoScope": "US",
+  "research": {
+    "checkedAt": "2026-11-26",
+    "events": "NONE_FOUND",
+    "forums": "NONE_FOUND",
+    "sourcesChecked": [
+      "https://apply.coop/",
+      "https://apply.coop/about",
+      "https://apply.coop/workplaces/cooperative/equal-exchange",
+      "https://opencollective.com/apply-coop",
+      "https://groups.google.com/g/newyorkcooperative/c/FrnCq8aagkg"
+    ],
+    "notes": "A web tool, not a community: the only channels are a feedback form and a Mastodon account (@applycoop@social.coop), which is one-way. The 2025 beta announcement and the Open Collective page describe a paid job board for verified co-ops only. The live site no longer shows job postings, only workplace profiles, and also lists nonprofits and public benefit corporations; the record describes the live site. geoScope is US because nearly all the listed workplaces are in the US, though a few (CERN, DATEV, Igalia) are in Europe."
+  }
+}
